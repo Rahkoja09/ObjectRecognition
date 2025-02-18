@@ -1,7 +1,6 @@
-
 # object_recognition
 
-Une application de reconnaissance d'objet - flutter
+Une application mobile(android) de reconnaissance d'objet - flutter
 
 ## Outils utiliser 
 - TensorFlow Lite
