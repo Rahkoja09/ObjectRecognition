@@ -1,0 +1,85 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE / Editor related
+.idea/
+*.iml
+.vscode/
+
+# macOS & iOS
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/.symlinks/
+ios/xcuserdata/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+
+# Android
+android/.gradle/
+android/captures/
+android/key.properties
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+
+# Fichiers volumineux à ignorer
+assets/models/*.tflite
+assets/kitten.jpeg
+assets/medias/images/*.png
+assets/labels/*
+
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Firebase Keys (important à ajouter si tu utilises Firebase)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Ne PAS ignorer ces fichiers importants :
+!pubspec.yaml
+!README.md
+!test/
+
+# Ignore macOS-specific files
+macos/Runner/Assets.xcassets/
+macos/Runner/Base.lproj/
+macos/Runner/Configs/
+macos/Runner/Info.plist
+macos/Runner/MainFlutterWindow.swift
+macos/RunnerTests/
+
+# Ignore Windows-specific files
+windows/
+
+# Ignore web-related files if not needed
+web/
+# Ignore Linux-specific files
+macos/
+linux/
+ios/
+
+# Ignore Flutter generated files
+flutter_export_environment.sh
+
