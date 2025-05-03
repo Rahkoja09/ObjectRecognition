@@ -6,4 +6,4 @@ Une application mobile(android) de reconnaissance d'objet - flutter
 - TensorFlow Lite
 - camera plugin
 - dataset coco 2017
-- Model Yolov5s de tflite
+- Model Yolov5s.tflite
